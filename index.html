@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalho Dev Web</title>
-    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
     <header>
-        <nav> /*LISTA PARA FAZER O MENU*/
+        <nav> <!--LISTA PARA FAZER O MENU-->
             <ul>
                 <li><a href="#sobremim">Sobre mim</a></li>
                 <li><a href="#formacao">Formação</a></li>
@@ -18,7 +18,7 @@
         </nav>
     </header>
     <main>
-        <section id="sobremim"> /*SECTION PARA SEPARAR AS ANCORAS DA PÁGINA E SEUS CONTEÚDOS*/
+        <section id="sobremim"> <!--SECTION PARA SEPARAR AS ANCORAS DA PÁGINA E SEUS CONTEÚDOS-->
             <div class="texto">
             <br><br>
             <h2>Sobre mim</h2>
@@ -48,7 +48,7 @@
             </p>
             </div>
             <br>
-            <article> /*ARTICLE PARA MOSTRAR UM POUCO DO MEU HOBBIE*/
+            <article> <!--ARTICLE PARA MOSTRAR UM POUCO DO MEU HOBBIE-->
                 <h2>Minha Música</h2>
                 <br>
 
@@ -105,7 +105,7 @@
             <br>
             
             <p>Deixo como portifólio algumas artes gráficas criadas por mim</p>
-            </div> /*IMAGENS PARA MOSTRAR UM POUCO DO QUE JÁ TRABALHEI*/
+            </div> <!--IMAGENS PARA MOSTRAR UM POUCO DO QUE JÁ TRABALHEI-->
             <img src="imagens/behance_project_1681404118698.jpg.jpeg" alt="" style="width: 25%;">
             <img src="imagens/behance_project_1681403945917.jpg.jpeg" alt="" style="width: 25%;">
             <img src="imagens/behance_project_1681404195257.jpg.jpeg" alt="" style="width: 25%;">
@@ -113,7 +113,7 @@
         </section>
                 <hr>
         <section id="contato">
-            <form action="" id="meuform"> /*FORMULÁRIO*/
+            <form action="" id="meuform"> <!--FORMULÁRIO-->
                 <h2>Contato</h2>
                 <label for="nome">Nome</label>
                 <input type="text" id="nome" placeholder="Digite seu nome"> <br>
@@ -124,7 +124,7 @@
                 <button type="submit">Enviar</button>
             </form>
 
-            <script> /*JS PARA FAZER A VALIDAÇÃO DOS CAMPOS E ALERTA DE ENVIO*/
+            <script> <!--JS PARA FAZER A VALIDAÇÃO DOS CAMPOS E ALERTA DE ENVIO-->
 
             const form = document.getElementById("meuform");
             form.addEventListener("submit", function(event){
@@ -133,7 +133,7 @@
 
             const nome = document.getElementById("nome").value;
             const email = document.getElementById("email").value;
-                    /*IF PARA CASO NADA SEJA PREENCHIDO*/
+                
             if(nome === "" || email === ""){
 
                 alert("Preencha todos os campos!");
